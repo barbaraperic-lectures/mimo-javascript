@@ -1,68 +1,31 @@
-// basic types
+// 1. client-side programming language 
 
+// 2. basic data types: string, number, boolean, null, undefined, object, symbol
 
-// checking types
+// 3. variables: var / let / const
 
-// concentination and interpolation
+// 3. checking types
 
+// 4. concatenation and interpolation
 
+// 5. converting strings to numbers 
 
-// undefined
+// 6. boolean and equality
 
+// 7. comparisons 
 
+// 8. data structures: arrays, objects
 
-// boolean and equality
-
-// = 
-let sport = "football"
-
-// == compares value
-
-console.log(1 == "1")
-
-// === compares value and type
-
-console.log(1 === "1")
-
-// converting strings to numbers 
-
-const score = 2
-
-
-const scoreString = score.toString();
-console.log(typeof scoreString);
-
-const age = "23";
-
-const ageNumber = Number.parseInt(age, 10);
-
-console.log(typeof ageNumber);
-
-// data structures: arrays, objects
-
-// variables: var vs let vs const
+// 9. functions
 
 
 
-// arrow function to calculate
+function checkWeather(weather) {
+  if (weather === "rain") {
+    return 'Bring an umbrella'
+  } else {
+    return "Bring your sunglasses"
+  }
+}
 
-const infoMess = "hello"
-
-console.info("This is an information message", infoMess);
-
-// comparisons 
-
-
-const family = ["👨", "‍", "👩", "‍", "👧", "‍", "👦"].join('')
-
-console.log(family);
-
-// CRUD in array
-
-
-// CRUD in object
-
-
-// functions
-
-
+console.log(checkWeather("sunny"));
